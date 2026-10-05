@@ -1,19 +1,19 @@
 import { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import VeoSection from './components/VeoSection';
-import Benefits from './components/Benefits';
-import Pricing from './components/Pricing';
-import OrderForm from './components/OrderForm';
-import OrderConfirmation from './components/OrderConfirmation';
-import Payment from './components/Payment';
-import PaymentConfirmation from './components/PaymentConfirmation';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import { buildPaymentProofMessage, buildWhatsAppLink } from './utils/whatsapp';
+import Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
+import Features from './components/Features.jsx';
+import VeoSection from './components/VeoSection.jsx';
+import Benefits from './components/Benefits.jsx';
+import Pricing from './components/Pricing.jsx';
+import OrderForm from './components/OrderForm.jsx';
+import OrderConfirmation from './components/OrderConfirmation.jsx';
+import Payment from './components/Payment.jsx';
+import PaymentConfirmation from './components/PaymentConfirmation.jsx';
+import FAQ from './components/FAQ.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
+import { buildPaymentProofMessage, buildWhatsAppLink } from './utils/whatsapp.js';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
